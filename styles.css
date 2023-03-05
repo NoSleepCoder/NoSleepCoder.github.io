@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "myfont";
+    src: url("Montserrat-Regular.ttf") format(TrueType);
+}
+
+* {
+    scroll-behavior: smooth;
+    scroll-padding-top: 22pc;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf6f6;
+}
+
+/* Header Section */    
+
+li,
+a,
+button {
+    font-family: 'monospace';
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+    background-color: #24252a;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10pc;
+    background-color: #24252a;
+}
+
+.logo {
+    margin-right: auto;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #24252a;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 300ms ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 100ms ease 0ms;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.6);
+}
+
+ul {
+    background-color: #24252a;
+}
+
+.cta {
+    margin-left: 50px;
+}
+/* XXXX */
+
+/* Intro Section */
+.name {
+    color:#66bfbf;
+    margin: 10rem 15rem 0rem;
+    font-size: 4rem;
+}
+
+.intro {
+    color: #919191;
+    margin: 0 15rem;
+    font-size: 4rem;
+}
+
+/* XXXX */
+
+/* Middle Container */
+
+.middle-container {
+    margin: 15pc auto 0;
+    text-align: center;
+    font-size: 1.25em;
+    font-family: 'myfont';
+}
+
+h2 {
+    color: #66bfbf;
+    font-size: 2rem;
+    margin: 2pc auto;
+}
+
+h3 {
+    font-size: 1.25em;
+    color: #66bfbf;
+}
+
+.skillRow {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+hr {
+    border-color: gray;
+    border-style: dotted none none;
+    width: 6pc;
+    border-width: 6px;
+    margin: 100px auto;
+}
+
+.leftAlign {
+    text-align: left;
+}
+
+.normalFW {
+    font-weight: normal;
+}
+
+p {
+    margin-top: 1pc;
+    line-height: 2;
+    color: #4f4d4d;
+}
+
+.introduction {
+    width: 30pc;
+    margin: 0 auto;
+}
+
+.imageComputer {
+    width: 12pc;
+    float: left;
+    padding-right: 70px;
+}
+
+.imageLeadership {
+    width: 12pc;
+    float: right;
+    padding-left: 70px;
+}
+/* XXXX */
+
+/* Bottom Section */
+
+.footer{
+    font-family: "myfont";
+}
+.contactMe {
+    text-align: center;
+    width: 40pc;
+    margin: 2pc auto;
+}
+.bottomContainer {
+    text-align:center;
+    background-color:#24252a;
+    padding: 3em 0 2em;
+}
+.copyright {
+    background-color:#24252a;
+    color: #656565;
+    margin-top: 2em;
+}
+
+.footerLink {
+    font-size: large;
+    margin: 0.7rem 1.25rem;
+
+}
+.footerLink:hover {
+    color: #0088a9;
+}
+.btn{
+    padding: 9px 20px;
+    background-color: #000;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 100ms ease 0ms;
+}
+.btn:hover {
+    background-color: #24252a;
+}
+/* XXXX */

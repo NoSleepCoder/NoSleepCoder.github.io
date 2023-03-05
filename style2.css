@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "myfont";
+    src: url("Montserrat-Regular.ttf") format(TrueType);
+}
+
+body{
+    background-color: #eaf6f6;
+    text-align: center;   
+}
+
+
+h1 {
+    color: #00d084;
+    font-family: "myfont";
+    font-weight: 900;
+}
+p{
+    font-size: large;
+    color: #656565;
+}
+.form {
+    color: #3c413f;
+}
